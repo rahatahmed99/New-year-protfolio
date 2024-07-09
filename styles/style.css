@@ -2,6 +2,7 @@
 
 body{
   font-family: "Merriweather", serif;
+  line-height: 1px;
 }
 
 /* Banner container styles */
@@ -42,4 +43,49 @@ font-weight: 400;
   
   font-size: 72px;
 font-weight: 900;
+}
+
+.second-section-container{
+ max-width: 802.9px;
+height: 806px;
+margin: 0 auto;
+border: 2px solid red;
+margin-top: 120px;
+
+}
+
+.second-section-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second-section-container h2{
+  color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 88px;
+font-weight: 700;
+}
+
+.second-section-container p{
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.second-section-container h3{
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.img-section{
+  width: 802.9px;
+height: 500px;
+}
+
+.Party-section-container {
+  
 }
